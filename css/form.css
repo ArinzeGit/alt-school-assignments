@@ -1,3 +1,97 @@
+body{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
 h1{
     color:red;
+}
+
+h2{
+    font-size: 20px;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+}
+
+input,select{
+    display: block;
+    padding:16px 24px 16px 10px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
+
+input:hover,select:hover{
+    border:1px solid #4096ff;
+}
+
+.desktop-only{
+    display:none;
+}
+
+.center{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alt-logo{
+    margin-bottom: 20px;
+}
+
+.sign-in{
+    margin-bottom: 16px;
+}
+
+.form{
+    width:90%;
+    margin: 0 auto;
+}
+
+.form-item{
+    margin-bottom: 30px;
+}
+
+.grey-text{
+    color: #85888D;
+    margin-bottom: 30px;
+}
+
+.link{
+    color: #0367F2;
+    text-decoration: none;
+}
+
+.footer-link{
+    color: #2054D2;
+    text-decoration: none;
+}
+
+.button{
+    width:100%;
+    padding:10px 0;
+    border-radius: 6px;
+    background-color: #6A6FF5;
+    color:white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:60px;
 }
