@@ -1,5 +1,9 @@
-body{
+ body{
     box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
 }
 
 p{
@@ -7,7 +11,7 @@ p{
 }
 
 a{
-    text-decoration: none;
+    text-decoration:none;
 }
 
 h1{
@@ -20,7 +24,6 @@ h2{
 
 label{
     display: block;
-    font-size: 16px;
 }
 
 input,select{
@@ -32,7 +35,7 @@ input,select{
     width: 100%;
 }
 
-input:hover,select:hover{
+input:hover{
     border:1px solid #4096ff;
 }
 
@@ -90,8 +93,52 @@ input:hover,select:hover{
     align-items: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:60px;
+.submit-arrow{
+    margin-left: 20px;
 }
+
+.intro{
+    font-size: 35px;
+}
+
+
+
+@media screen and (min-width: 595px) {
+   
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:60px;
+    } 
+
+}
+
+@media screen and (min-width: 770px) {
+
+    .brown{
+        background-color: #FFFCF8;
+        width:45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .desktop-only{
+        display:block;
+        text-align: center;
+    }
+
+    .form{
+        width:55%;
+    }
+
+    .alt-logo{
+        display:none;
+    }
+
+    .flex{
+        display:flex;
+        gap:30px;
+    }
+    
+}
+
