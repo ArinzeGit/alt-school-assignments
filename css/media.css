@@ -1,3 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
 h1{
     color:blue;
+    margin-top: 0;
+    padding-top: 21.44px;
+}
+
+header{
+    background-color: lightgray;
+}
+
+a{
+    text-decoration:none;
+}
+
+header,main,footer{
+    padding: 0 3%;
+}
+
+main,footer{
+    background-color: bisque;
+}
+
+.copyright{
+    margin: 0;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin:0 auto;
 }
