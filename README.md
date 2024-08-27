@@ -1,1 +1,1 @@
-This is a HTML/CSS assignment by AltSchool Africa. Nothing much here, just basic styling techniques. View the live site here: 
+This is a HTML/CSS assignment by AltSchool Africa. Nothing much here, just basic styling techniques. View the live site [here](https://arinzegit.github.io/alt-school-assignments/) 
