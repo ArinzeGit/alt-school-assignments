@@ -36,7 +36,7 @@ input,select{
 }
 
 input:hover{
-    border:1px solid #4096ff;
+    outline:1px solid #4096ff;
 }
 
 .desktop-only{
