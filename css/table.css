@@ -37,3 +37,13 @@ header,main,footer{
     font-style: italic;
     font-weight:bold;
 }
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr, caption{
+        display: block;
+    }
+
+    thead tr{
+        display: none;
+    }
+}

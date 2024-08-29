@@ -39,3 +39,14 @@ main,footer{
     display: block;
     margin:0 auto;
 }
+
+
+.video{
+    width:min(80%,400px) ;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.video-container{
+    text-align: center;
+}
